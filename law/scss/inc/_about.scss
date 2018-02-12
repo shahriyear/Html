@@ -1,0 +1,35 @@
+#about{
+	padding: 100px 0 20px 0;
+	text-align: center;
+	 background: #010101; 
+	 h1{text-align: center; padding: 0 0 50px 0; font-size: 50px;
+		color: #fff;}
+	.about-sec{ height: 360px; 
+		border-radius: 5px;
+		margin-bottom: 120px;
+		background: #fff;
+		padding-top: 55px;
+		.about-sce-first{
+			border: 5px solid #f1f1f1;
+			height: 110px;
+			width: 110px; 
+			border-radius: 50%; 
+			text-align: center; 
+			margin:  0 auto;
+			/*/margin-top: 55px;
+
+*/			i{padding: 35px 0 0 0 ;}
+		}
+		h3{
+			padding-top: 5px;
+			font-size: 22px;
+			font-weight: 700;
+		}
+		p{
+			padding: 5px 10px;font-size: 16px;
+		}
+
+
+	}
+
+}

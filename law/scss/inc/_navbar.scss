@@ -1,0 +1,66 @@
+@import '_variables.scss';
+
+header {
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	line-height: 90px;
+	height: 90px;
+	font-size: $fontsize;
+	background: $navcolor;
+	padding-top: 20px;
+	transition: all 0.1s ease;
+	
+	 
+
+	.navcls{
+		background: $navcolor;
+		h1{ font-size: 24px;  margin:0; color: $font-color;
+		}
+		.navhead{
+			a{cursor: pointer; color: $font-color}
+			.iconcls{ background:$navicon;}
+	 	}
+		.clscen{
+				ul{
+					li{/*border-right: 1px solid $font-color;	*/
+						a{	color: $font-color;
+							padding: 15px 25px;
+						}
+					}
+					
+					/*li:last-child{ border-right:none ;
+					} */
+				}
+		}
+
+	.clscen a:hover{   color:$hover-bgcol;
+						background: none !important;
+						transition: all 2s ease;
+					}
+
+
+
+	}
+	.hvr-underline-from-left::before {
+    background: $hover-bgcol !important;}
+}
+
+header.sticky {
+	font-size: $fontsize;
+	line-height: 50px;
+	height: 50px;
+	padding-top: 0 !important;
+	text-align: center; 
+	 transition: all 0.3s ease;
+
+}
+
+@media (max-width: 768px){
+	header {
+	
+	text-align: center;
+
+	}
+}
+ 

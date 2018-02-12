@@ -1,0 +1,39 @@
+@import '_variables.scss';
+
+
+#team{	padding: 50px 0 75px 0;
+		background:#f6f6eb;
+		h1{text-align: center; padding: 50px 0 10px 0; font-size: 50px;
+		}
+		p {
+			text-align: center; font-size: 21px;
+		}
+
+		.team-sec{height: 420px; text-align: center; background: #ffffff; margin-top: 35px;
+			.team-sec-img{height: 240px;
+				img{height: 100%; width: 100%;  
+				}
+				img:hover{  cursor: pointer;opacity:0.5;
+				}
+
+			}
+	 
+		 
+		 h1{font-size: 28px; padding-top: 17px;
+		 }
+
+		h1:hover{color: $hover-bgcol;cursor: pointer;
+		 }
+
+		 p { font-size: 17px; color: red; padding-top: -18px;
+
+		 	a{padding:10px 15px 0 0;
+		 		text-decoration: none;
+		 		color: #E7E7E7;
+		 	}
+
+		 	a:hover{color:red
+		 	}
+		  }}
+}
+

@@ -1,0 +1,450 @@
+/*nav*/
+/*nav*/
+/* line 3, ../scss/inc/_navbar.scss */
+header {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  line-height: 90px;
+  height: 90px;
+  font-size: 16px;
+  background: #010101;
+  padding-top: 20px;
+  transition: all 0.1s ease;
+}
+/* line 16, ../scss/inc/_navbar.scss */
+header .navcls {
+  background: #010101;
+}
+/* line 18, ../scss/inc/_navbar.scss */
+header .navcls h1 {
+  font-size: 24px;
+  margin: 0;
+  color: white;
+}
+/* line 21, ../scss/inc/_navbar.scss */
+header .navcls .navhead a {
+  cursor: pointer;
+  color: white;
+}
+/* line 22, ../scss/inc/_navbar.scss */
+header .navcls .navhead .iconcls {
+  background: #ffd486;
+}
+/* line 25, ../scss/inc/_navbar.scss */
+header .navcls .clscen ul {
+  /*li:last-child{ border-right:none ;
+  } */
+}
+/* line 26, ../scss/inc/_navbar.scss */
+header .navcls .clscen ul li {
+  /*border-right: 1px solid $font-color;	*/
+}
+/* line 27, ../scss/inc/_navbar.scss */
+header .navcls .clscen ul li a {
+  color: white;
+  padding: 15px 25px;
+}
+/* line 37, ../scss/inc/_navbar.scss */
+header .navcls .clscen a:hover {
+  color: #fa5c5d;
+  background: none !important;
+  transition: all 2s ease;
+}
+/* line 45, ../scss/inc/_navbar.scss */
+header .hvr-underline-from-left::before {
+  background: #fa5c5d !important;
+}
+
+/* line 49, ../scss/inc/_navbar.scss */
+header.sticky {
+  font-size: 16px;
+  line-height: 50px;
+  height: 50px;
+  padding-top: 0 !important;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  /* line 60, ../scss/inc/_navbar.scss */
+  header {
+    text-align: center;
+  }
+}
+/* line 1, ../scss/inc/_slide.scss */
+#slider {
+  padding-top: 90px;
+}
+/* line 3, ../scss/inc/_slide.scss */
+#slider .slideimg {
+  width: 100%;
+}
+/* line 7, ../scss/inc/_slide.scss */
+#slider .slideimg img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+/* line 1, ../scss/inc/_aboutus.scss */
+#aboutus {
+  padding: 70px 0;
+}
+/* line 3, ../scss/inc/_aboutus.scss */
+#aboutus .pone {
+  font-size: 17px;
+  padding: 0 0 0 2px;
+}
+/* line 4, ../scss/inc/_aboutus.scss */
+#aboutus h1 {
+  padding: 0 0 20px 0;
+}
+/* line 7, ../scss/inc/_aboutus.scss */
+#aboutus .ptwo {
+  font-size: 18px;
+  padding: 5px 0;
+}
+/* line 10, ../scss/inc/_aboutus.scss */
+#aboutus .pthree {
+  font-size: 16px;
+  padding: 5px 0;
+}
+/* line 14, ../scss/inc/_aboutus.scss */
+#aboutus .about-img {
+  height: 170px;
+  padding-bottom: 30px;
+}
+/* line 15, ../scss/inc/_aboutus.scss */
+#aboutus .about-img img {
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 5px;
+}
+
+/* line 1, ../scss/inc/_about.scss */
+#about {
+  padding: 100px 0 20px 0;
+  text-align: center;
+  background: #010101;
+}
+/* line 5, ../scss/inc/_about.scss */
+#about h1 {
+  text-align: center;
+  padding: 0 0 50px 0;
+  font-size: 50px;
+  color: #fff;
+}
+/* line 7, ../scss/inc/_about.scss */
+#about .about-sec {
+  height: 360px;
+  border-radius: 5px;
+  margin-bottom: 120px;
+  background: #fff;
+  padding-top: 55px;
+}
+/* line 12, ../scss/inc/_about.scss */
+#about .about-sec .about-sce-first {
+  border: 5px solid #f1f1f1;
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  			/*/margin-top: 55px;
+  
+  */
+}
+/* line 21, ../scss/inc/_about.scss */
+#about .about-sec .about-sce-first i {
+  padding: 35px 0 0 0;
+}
+/* line 23, ../scss/inc/_about.scss */
+#about .about-sec h3 {
+  padding-top: 5px;
+  font-size: 22px;
+  font-weight: 700;
+}
+/* line 28, ../scss/inc/_about.scss */
+#about .about-sec p {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+/*nav*/
+/* line 4, ../scss/inc/_team.scss */
+#team {
+  padding: 50px 0 75px 0;
+  background: #f6f6eb;
+}
+/* line 6, ../scss/inc/_team.scss */
+#team h1 {
+  text-align: center;
+  padding: 50px 0 10px 0;
+  font-size: 50px;
+}
+/* line 8, ../scss/inc/_team.scss */
+#team p {
+  text-align: center;
+  font-size: 21px;
+}
+/* line 12, ../scss/inc/_team.scss */
+#team .team-sec {
+  height: 420px;
+  text-align: center;
+  background: #ffffff;
+  margin-top: 35px;
+}
+/* line 13, ../scss/inc/_team.scss */
+#team .team-sec .team-sec-img {
+  height: 240px;
+}
+/* line 14, ../scss/inc/_team.scss */
+#team .team-sec .team-sec-img img {
+  height: 100%;
+  width: 100%;
+}
+/* line 16, ../scss/inc/_team.scss */
+#team .team-sec .team-sec-img img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+/* line 22, ../scss/inc/_team.scss */
+#team .team-sec h1 {
+  font-size: 28px;
+  padding-top: 17px;
+}
+/* line 25, ../scss/inc/_team.scss */
+#team .team-sec h1:hover {
+  color: #fa5c5d;
+  cursor: pointer;
+}
+/* line 28, ../scss/inc/_team.scss */
+#team .team-sec p {
+  font-size: 17px;
+  color: red;
+  padding-top: -18px;
+}
+/* line 30, ../scss/inc/_team.scss */
+#team .team-sec p a {
+  padding: 10px 15px 0 0;
+  text-decoration: none;
+  color: #E7E7E7;
+}
+/* line 35, ../scss/inc/_team.scss */
+#team .team-sec p a:hover {
+  color: red;
+}
+
+/* line 1, ../scss/inc/_good.scss */
+#good {
+  padding: 70px 0 50px 0;
+}
+/* line 3, ../scss/inc/_good.scss */
+#good h1 {
+  text-align: center;
+  padding: 0 0 10px 0;
+  font-size: 50px;
+}
+/* line 5, ../scss/inc/_good.scss */
+#good p {
+  text-align: center;
+  font-size: 19px;
+  padding-bottom: 40px;
+}
+/* line 10, ../scss/inc/_good.scss */
+#good .good-main {
+  border-right: 1px solid #dddfff;
+  height: 200px;
+}
+/* line 13, ../scss/inc/_good.scss */
+#good .good-main h1 {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 50px;
+}
+/* line 17, ../scss/inc/_good.scss */
+#good .good-main p {
+  text-align: center;
+  font-size: 13px;
+}
+/* line 23, ../scss/inc/_good.scss */
+#good .good-main:last-child {
+  border-right: none;
+}
+
+/* line 1, ../scss/inc/_area.scss */
+#area {
+  padding: 90px 0;
+  background: #010101;
+}
+/* line 4, ../scss/inc/_area.scss */
+#area h1 {
+  text-align: center;
+  padding: 0 0 60px 0;
+  font-size: 50px;
+  color: #FFF;
+}
+/* line 7, ../scss/inc/_area.scss */
+#area .sec-img {
+  height: 200px;
+}
+/* line 9, ../scss/inc/_area.scss */
+#area .sec-img img {
+  border-radius: 5px;
+  height: 100% !important;
+  width: 100% !important;
+}
+/* line 13, ../scss/inc/_area.scss */
+#area p {
+  padding: 15px 0 25px 0;
+  text-align: center;
+  font-size: 19px;
+  color: #FFF;
+}
+
+/* line 1, ../scss/inc/_price.scss */
+#price {
+  padding: 20px 0 80px 0;
+}
+/* line 3, ../scss/inc/_price.scss */
+#price h1 {
+  text-align: center;
+  padding: 50px 0 50px 0;
+  font-size: 50px;
+}
+/* line 5, ../scss/inc/_price.scss */
+#price .price-sec {
+  height: 340px;
+  box-shadow: 1px 1px 2px #888888;
+  padding: 0 !important;
+}
+/* line 9, ../scss/inc/_price.scss */
+#price .price-sec h1 {
+  text-align: left;
+}
+/* line 11, ../scss/inc/_price.scss */
+#price .price-sec .price-sec-head {
+  background: #EEEEEE;
+  margin-bottom: 20px;
+}
+/* line 15, ../scss/inc/_price.scss */
+#price .price-sec .price-sec-head h1 {
+  font-size: 40px;
+  padding: 10px 10px 0 20px;
+  margin: 0;
+}
+/* line 19, ../scss/inc/_price.scss */
+#price .price-sec .price-sec-head p {
+  font-size: 19px;
+  padding: 0 10px 10px 20px;
+}
+/* line 23, ../scss/inc/_price.scss */
+#price .price-sec p {
+  font-size: 16px;
+  padding: 5px 20px;
+}
+/* line 28, ../scss/inc/_price.scss */
+#price .btncls {
+  font-size: 30px;
+  padding: 5px 20px;
+  border: none;
+  width: 100%;
+  border-radius: none !important;
+  text-decoration: none;
+  background: #ccc;
+  margin: 0;
+}
+/* line 40, ../scss/inc/_price.scss */
+#price .btncls:hover {
+  background: #3cb0fd;
+  border: 0 !important;
+  text-decoration: none;
+  border-radius: none !important;
+}
+
+/* line 1, ../scss/inc/_test.scss */
+#test {
+  padding: 10px 0 90px 0;
+  text-align: center;
+  /*background:#f6f6eb;*/
+  /*h1{text-align: center; padding: 30px 0 20px 0; font-size: 30px;
+  	}*/
+}
+/* line 8, ../scss/inc/_test.scss */
+#test P {
+  font-size: 19px;
+  padding: 40px 15px 20px 15px;
+}
+/* line 12, ../scss/inc/_test.scss */
+#test h3 {
+  padding-top: 10px;
+}
+
+/* line 1, ../scss/inc/_contact.scss */
+#contact {
+  padding: 80px 0;
+  background: #010101;
+  color: #fff;
+  /*.contact-form{margin:0 auto !important;}*/
+}
+/* line 6, ../scss/inc/_contact.scss */
+#contact h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  font-size: 40px;
+}
+/* line 8, ../scss/inc/_contact.scss */
+#contact p {
+  text-align: center;
+  font-size: 17px;
+  padding-bottom: 70px;
+}
+/* line 13, ../scss/inc/_contact.scss */
+#contact input[type="text"] {
+  height: 50px;
+  font-size: 21px;
+}
+/* line 17, ../scss/inc/_contact.scss */
+#contact input[type="email"] {
+  height: 50px;
+  font-size: 21px;
+}
+/* line 21, ../scss/inc/_contact.scss */
+#contact textarea {
+  font-size: 21px;
+}
+/* line 24, ../scss/inc/_contact.scss */
+#contact .btncls {
+  font-size: 17px;
+  padding: 5px 20px;
+  border: none;
+  width: 100%;
+  border-radius: none !important;
+  text-decoration: none;
+  background: #3cb0fd;
+  margin: 0;
+}
+/* line 36, ../scss/inc/_contact.scss */
+#contact .btncls:hover {
+  background: #3cbbbb;
+  color: black;
+  border: 0 !important;
+  text-decoration: none;
+  border-radius: none !important;
+}
+
+/* line 2, ../scss/style.scss */
+a:focus {
+  outline: 0;
+  background: transparent;
+}
+
+/* line 4, ../scss/style.scss */
+.row {
+  margin: 0;
+}
+
+/* line 5, ../scss/style.scss */
+.hrcls {
+  width: 80%;
+}
